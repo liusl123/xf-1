@@ -16,7 +16,8 @@ Route::get('/admin', 'AdminController@index');
 // 用户模块
 Route::controller('/admin/user','UserController');
 
-
+// 分类模块
+Route::controller('/admin/cate','CateController');
 
 
 
